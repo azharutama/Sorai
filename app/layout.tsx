@@ -8,20 +8,20 @@ const display = Space_Grotesk({ subsets: ['latin'], variable: '--font-display' }
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
-  title: 'Sonora | Toko Alat Musik Pilihan',
-  description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di Sonora untuk menciptakan bunyi yang terasa personal.',
+  title: 'sorai | Toko Alat Musik Pilihan',
+  description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di sorai untuk menciptakan bunyi yang terasa personal.',
   keywords: [
     'toko alat musik',
     'alat musik Jakarta',
     'gitar elektrik',
     'synthesizer',
     'alat musik berkualitas',
-    'Sonora Music',
+    'sorai Music',
   ],
-  applicationName: 'Sonora',
-  authors: [{ name: 'Sonora Music Co.' }],
-  creator: 'Sonora Music Co.',
-  publisher: 'Sonora Music Co.',
+  applicationName: 'sorai',
+  authors: [{ name: 'sorai Music Co.' }],
+  creator: 'sorai Music Co.',
+  publisher: 'sorai Music Co.',
   category: 'music',
   robots: {
     index: true,
@@ -37,15 +37,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'id_ID',
-    title: 'Sonora | Toko Alat Musik Pilihan',
-    description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di Sonora.',
-    siteName: 'Sonora Music Co.',
+    title: 'sorai | Toko Alat Musik Pilihan',
+    description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di sorai.',
+    siteName: 'sorai Music Co.',
     images: ['/hero-instrument.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sonora | Toko Alat Musik Pilihan',
-    description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di Sonora.',
+    title: 'sorai | Toko Alat Musik Pilihan',
+    description: 'Temukan gitar elektrik, synthesizer, dan alat musik pilihan di sorai.',
     images: ['/hero-instrument.png'],
   },
   icons: {
@@ -59,7 +59,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'MusicStore',
-    name: 'Sonora Music Co.',
+    name: 'sorai Music Co.',
     description: 'Toko alat musik pilihan untuk gitar elektrik, synthesizer, dan kebutuhan musik lainnya.',
     address: {
       '@type': 'PostalAddress',
