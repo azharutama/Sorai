@@ -38,7 +38,7 @@ export default function Page() {
         {menuOpen && <div className="border-t border-black/10 bg-[#f5f2ec] px-6 py-5 text-sm font-semibold md:hidden"><div className="flex flex-col gap-5"><a href="#shop" onClick={() => setMenuOpen(false)}>Shop</a><a href="#story" onClick={() => setMenuOpen(false)}>Our story</a><a href="#membership" onClick={() => setMenuOpen(false)}>Membership</a><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></div></div>}
       </nav>
 
-      <section id="top" className="relative flex min-h-[760px] items-end overflow-hidden bg-[#171717] pb-14 pt-32 text-white md:min-h-[850px] md:pb-20">
+      <section id="top" className="relative flex min-h-[100svh] items-end overflow-hidden bg-[#171717] pb-14 pt-32 text-white md:pb-20">
         <Image src="/hero-instrument.png" alt="Gitar elektrik dan synthesizer di studio musik" fill priority className="object-cover object-center opacity-80" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#171717] via-[#171717]/35 to-black/10" />
         <div className="relative mx-auto w-full max-w-7xl px-6 lg:px-10">
